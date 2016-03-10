@@ -1,7 +1,22 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 @import 'box-sizing';
-@import 'css-gram';
+@import 'cssgram';
+@import 'variables';
+@import 'nav';
+@import 'header';
+
+body {
+  max-width: 100vw;
+  margin: auto;
+  background: $brand-dark-gray;
+  color: $brand-light-gray;
+}
+
+.container {
+  max-width: $max-content-width;
+  margin: auto;
+}

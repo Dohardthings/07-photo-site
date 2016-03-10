@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: $gutter;
+}
+
+.nav__left {
+  display: flex;
+  justify-content: space-between;
+  width: 17rem;
+}
+
+.logo {
+font-size: 2rem;
+margin: 0;
+align-self: center;
+}
+
+.name {
+  color: $brand-white;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  align-items: center;
+}
+
+.about {
+  color: $brand-light-gray;
+}
+
+.work {
+  color: $brand-red;
+}
+
+.contact {
+  color: $brand-light-gray;
+}
