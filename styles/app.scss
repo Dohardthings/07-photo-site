@@ -28,8 +28,8 @@ main {
 @media screen and (max-width: 820px) {
   .nav__links {
     position: absolute;
-    top: 17%;
-    right: -5%;
+    top: 10%;
+    right: -9%;
     flex-direction: column;
     display: none;
   }
@@ -51,6 +51,14 @@ main {
   }
   .main__article {
     flex-direction: column;
+  }
+
+  .pic-and-author {
+  }
+
+  .crazy-cage {
+    max-width: 85vw;
+
   }
   .pic-details {
     padding-left: 0;
