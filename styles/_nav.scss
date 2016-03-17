@@ -7,24 +7,26 @@
 .nav__left {
   display: flex;
   justify-content: space-between;
-  width: 17rem;
+  width: 18rem;
 }
 
 .logo {
-font-size: 2rem;
-margin: 0;
-align-self: center;
+  align-self: center;
+  margin: 0;
+  font-size: 2rem;
+
 }
 
 .name {
+  margin-right: 0.3rem;
   color: $brand-white;
 }
 
 .nav__links {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 10rem;
-  align-items: center;
 }
 
 .about {

@@ -5,11 +5,17 @@ footer {
   color: $brand-white;
 }
 
+.footer-statement {
+  font-family: fantasy;
+  font-size: 0.8rem;
+}
+
 .footer-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   min-width: 27rem;
+  font-size: 0.6rem;
 
 }
 
@@ -17,8 +23,8 @@ footer {
   @extend %inkwell;
 
 
-   &:hover  {
+  &:hover  {
      @extend %earlybird;
-     color: $brand-red;
+    color: $brand-red;
    }
 }

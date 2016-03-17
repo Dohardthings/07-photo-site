@@ -1,6 +1,6 @@
 .sub__header {
   position: relative;
-  width: 6.3rem;
+  width: 8.3rem;
   margin: auto;
 
 }
@@ -11,20 +11,20 @@
 
 .triangle {
   position: absolute;
-  top: 20%;
-  left: 40%;
+  top: 15%;
+  left: 31%;
   margin: 0;
   color: $brand-red;
-font-size: 2rem;
-text-align: middle;
+  font-size: 2rem;
+  text-align: middle;
 }
 
 .landscape {
-margin: 0;
-color: $brand-white;
-position: absolute;
-top: 80%;
-left: 13%;
-font-size: 1.2rem;
+  position: absolute;
+  top: 80%;
+  left: 2%;
+  margin: 0;
+  color: $brand-white;
+  font-size: 1.2rem;
 
 }
