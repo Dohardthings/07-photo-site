@@ -79,16 +79,19 @@ main {
     width: 100%;
   }
   .main__article {
+    position: relative;
     flex-direction: column;
+    align-items: center;
+
   }
 
   .crazy-cage {
-    max-width: 85vw;
 
   }
 
   .pic-details {
     padding-left: 0;
+    width: 50%;
   }
 
   .footer-links {

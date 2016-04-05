@@ -4,24 +4,23 @@ main {
   align-items: center;
   justify-content: center;
   margin-top: 1rem;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 
 .row {
   display: flex;
   justify-content: flex-end;
-  width: 117%;
+  width: 100%;
   margin-top: $gutter;
-  overflow: auto;
 }
 
 .main__article {
   display: flex;
-
+  justify-content: flex-end;
 }
 
 .crazy-cage {
-  max-width: 400px;
+  width: 100%;
 
 }
 
@@ -45,15 +44,19 @@ main {
   margin-top: 0.4rem;
 }
 
-.pic-details {
-  padding-left: 1rem;
-list-style-type: none;
-margin-top: .5rem;
+.pic-and-author {
+  width: 50%;
+}
 
+.pic-details {
+  width: 25%;
+  padding-left: 1rem;
+  list-style-type: none;
+  margin-top: .5rem;
 }
 
 .pic-details__item {
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 .pic-details__item__red {
