@@ -19,7 +19,7 @@ footer {
 
 }
 
-.footer-links-item {
+.footer-links-item_fix {
   @extend %inkwell;
 
 
@@ -27,4 +27,5 @@ footer {
      @extend %earlybird;
     color: $brand-red;
    }
+
 }
